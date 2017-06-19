@@ -3,6 +3,12 @@ body {
   background-size: cover;
   font-size: 62.5%; }
 
+@font-face {
+  font-family: "Titillium";
+  src: url("TitilliumText22L004.otf"); }
+@font-face {
+  font-family: "Titillium2";
+  src: url("TitilliumText22L002.otf"); }
 h1 {
   border: 0;
   clip: rect(0 0 0 0);
@@ -17,7 +23,7 @@ h2 {
   color: #fff;
   font-size: 2rem;
   margin-bottom: 40px;
-  font-family: 'TitilliumText22L'; }
+  font-family: 'Titillium'; }
 
 img {
   opacity: 0.3;
@@ -62,12 +68,11 @@ input,
 select,
 textarea {
   color: black;
-  font-family: 'TitilliumText22L';
+  font-family: 'Titillium2';
   border-radius: 4px;
   padding: 10px;
   width: 100%;
   box-sizing: border-box;
-  font-weight: 100;
   font-size: 1rem;
   color: #afafaf;
   border: 1px solid #c6c6c6; }
@@ -77,14 +82,16 @@ textarea {
   border-color: #3b9a00;
   color: #fff;
   font-size: 1.2rem;
-  text-shadow: 1px 1px 1px black; }
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Titillium'; }
 
 .btn-red {
   background-image: linear-gradient(to bottom, #f76f7f 0%, #F03747 100%);
   color: #fff;
   font-size: 1.2rem;
   border-color: #a72c36;
-  text-shadow: 1px 1px 1px black; }
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Titillium'; }
 
 .btn-disabled {
   background-image: linear-gradient(to bottom, #a3d740 0%, #7EC31F 100%);
@@ -92,7 +99,8 @@ textarea {
   color: #fff;
   font-size: 1.2rem;
   text-shadow: 1px 1px 1px black;
-  opacity: 0.3; }
+  opacity: 0.3;
+  font-family: 'Titillium'; }
 
 input[type="submit"].btn-green:hover {
   background-image: linear-gradient(to bottom, #87b335 0%, #619418 100%); }
