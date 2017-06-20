@@ -200,6 +200,7 @@ input[type="checkbox"]:checked + label:before {
 select {
   appearance: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
   background-image: url("img/arrow.png");
   background-repeat: no-repeat;
   background-position: 95%;
@@ -244,5 +245,7 @@ input[name="phone-number"] {
 @media only screen and (max-width: 768px) {
   .container {
     flex-direction: column; } }
+input[type="checkbox"]:focus + label:before {
+  border: 1px solid #5E9ED6; }
 
 /*# sourceMappingURL=style.css.map */
